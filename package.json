@@ -1,0 +1,23 @@
+{
+  "name": "bootcamp-manz-sample-1",
+  "version": "1.0.0",
+  "description": "Mi primer proyecto con Manz",
+  "main": "index.js",
+  "scripts": {
+    "dev": "servor src/ index.html 1234 --reload"
+  },
+  "keywords": [
+    "javascript",
+    "manz",
+    "bootcamp"
+  ],
+  "author": "cheT0",
+  "license": "MIT",
+  "packageManager": "pnpm@10.33.2",
+  "type": "module",
+  "devDependencies": {
+    "oxfmt": "0.47.0",
+    "oxlint": "1.62.0",
+    "servor": "4.0.2"
+  }
+}
