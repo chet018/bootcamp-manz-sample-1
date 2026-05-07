@@ -4,7 +4,8 @@
   "description": "Mi primer proyecto con Manz",
   "main": "index.js",
   "scripts": {
-    "dev": "servor src/ index.html 1234 --reload"
+    "dev": "servor src/ index.html 1234 --reload",
+    "deploy": "gh-pages -d src"
   },
   "keywords": [
     "javascript",
@@ -13,9 +14,10 @@
   ],
   "author": "cheT0",
   "license": "MIT",
-  "packageManager": "pnpm@10.33.2",
+  "packageManager": "pnpm@11.0.8",
   "type": "module",
   "devDependencies": {
+    "gh-pages": "6.3.0",
     "oxfmt": "0.47.0",
     "oxlint": "1.62.0",
     "servor": "4.0.2"
